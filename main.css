@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p, small {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*----------------------------------------------- Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: solid 3px #7d97ad;
+  width: 100%;
+  margin: auto 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*----------------------------------------------- Logo*/
+.logo {
+  width: 20%
+}
+
+.logo img {
+  top: 0;
+  left: 0;
+  height: 73px;
+  /*width: 100%;*/
+  /*padding: 5px 0 0 5px;*/
+  /*margin: 3px;*/
+  /*margin-left:5px;*/
+}
+
+
+.name {
+  text-align: right;
+  line-height: 10px;
+  color: #2d3c49;
+  text-transform: uppercase;
+  padding: 3px;
+  /*left: 45px;*/
+  /*width: 80%;*/
+  margin-right: 40px;
+
+}
+
+h2 {
+  color: #7d97ad;
+}
+
+
+/*----------------------------------------------- Content*/
+.content {
+  /*display: flex;*/
+  flex-direction: column;
+  width: 100%;
+  margin: auto 10px;
+}
+
+.hero {
+  /*width: 100%;*//*
+  margin: auto 10px;*/
+  position: relative;
+  background-image: url("img/code.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  border: solid 1px white;
+  border-radius: 4px;
+}
+
+/*----------------------------------------------- Featured Work*/
+.featured-work-title {
+  margin-left: 5px;
+}
+
+.work-grid {
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.work {
+  border-radius: 4px;
+  border: solid 1px #fff;
+  box-shadow: 1px 8px 20px 8px #7d97ad;
+}
+
+.work-grid .work {
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.work-img {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40%;
+  border: solid 1px white;
+  border-radius: 4px;
+}
+
+.work-img1 {
+  background-image: url("img/daniel-kim-90534-unsplash.jpg");
+}
+.work-img2 {
+  background-image: url("img/daria-tumanova-344595-unsplash.jpg");
+}
+.work-img3 {
+  background-image: url("img/evgeni-evgeniev-419243-unsplash.jpg");
+}
+
+.work h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.work p {
+  font-size: small;
+}
+
+.work a {
+  text-decoration: none;
+  color:  #2d3c49;
+  word-wrap: break-word;
+  text-decoration: underline;
+}
+
+.inner-content {
+  margin-top: 40px;
+  line-height: 10px;
+}

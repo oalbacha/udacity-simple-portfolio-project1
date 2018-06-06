@@ -1,0 +1,14 @@
+
+/* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 768px) {
+  .work-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 2;
+  }
+
+  .work {
+    width: 25%;
+  }
+}
